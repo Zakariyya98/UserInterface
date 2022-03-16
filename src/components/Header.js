@@ -1,10 +1,18 @@
 import React from "react";
+import { NameHeading } from "./Header.styled";
+import { ButtonContainer, ContainerDiv } from "./styles/Container.styled";
+import HeaderButton from "./UI/Button.styled";
 
 function Header() {
     return (
-        <div>
-            <h1>Welcome to my Portfolio</h1>
-        </div>
+        <ContainerDiv>
+            <NameHeading>Hi I'm Zakariyya</NameHeading>
+                <ButtonContainer>
+                    <HeaderButton>Work</HeaderButton>
+                    <HeaderButton>Experience</HeaderButton>
+                    <HeaderButton>Contact</HeaderButton>
+                </ButtonContainer>
+        </ContainerDiv>
     )
 }
 

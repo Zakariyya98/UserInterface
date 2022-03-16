@@ -1,10 +1,14 @@
 import React from "react";
+import { FooterName } from "./Footer.styled";
 
 function Footer() {
     return (
         <div>
-            <h3>2022 Zakariyya Ahmed</h3>
+            <FooterName>
+                2022 Zakariyya
+            </FooterName>
         </div>
+     
     )
 }
 
