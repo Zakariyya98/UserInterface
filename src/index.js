@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import './index.css';
+
+//Global Font using Styled Components
+import FontStyles from './components/styles/fontStyles';
 
 ReactDOM.render(
   <React.StrictMode>
+    <FontStyles />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

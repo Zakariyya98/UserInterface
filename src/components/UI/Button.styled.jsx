@@ -8,5 +8,6 @@ border-radius: 20px;
 border-color: #4D77FF;
 background-color: #4D77FF;
 color: white;
+font-size: 18px;
 `
 export default HeaderButton;
