@@ -1,43 +1,29 @@
 import React from "react";
 import Card from './Card';
-import { ExperienceContainer } from "./Experience.styled";
+import { ExperienceContainer, ExperienceLabel } from "./Experience.styled";
 
 const Experience = () => {
     return (
         <>
+        <ExperienceLabel>
+            My Experience
+        </ExperienceLabel>
 
         <ExperienceContainer>
-        <Card 
-        title="Company Name"
-        date="Time at Company"
-        description="Duties of my role"
-        />
-       
 
-        
         <Card 
-        title="Company Name"
-        date="Time at Company" 
+        title="E-Commerce Company"
+        date="March 2020 - September 2021"
         description="Duties of my role"
         />
-        
 
-       
         <Card 
-        title="Company Name"
-        date="Time at Company"
+        title="Vertu Motors"
+        date="October 2021 - Present" 
         description="Duties of my role"
         />
-       
-
-        
-        <Card 
-        title="Company Name"
-        date="Time at Company"
-        description="Duties of my role"
-        />
+    
         </ExperienceContainer>
-
         </>
     )
   
