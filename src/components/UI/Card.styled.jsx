@@ -20,10 +20,12 @@ font-weight: 300;
 `;
 
 export const StyledContainer = styled.div`
-max-width: 550px;
-width 100%;
-margin: 20px 20px 20px 20px;
+max-width: 530px;
+width: 100%;
+height: 290px;
+max-height: 100%;
 border: 2px solid black;
+margin 20px;
 border-radius: 15px;
 background: #272727;
 `
