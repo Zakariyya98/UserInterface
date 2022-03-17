@@ -6,6 +6,27 @@ color: #fff;
 font-weight: 300;
 `;
 
+export const Role = styled.h2`
+text-align: center;
+color: #fff;
+font-weight: 300;
+`;
+
+export const Bullets = styled.ul`
+text-align: center;
+margin-right: 50px;
+color: #fff;
+font-weight: 300;
+`;
+
+export const TitleTech = styled.h2`
+text-align: center;
+color: #fff;
+font-weight: 300;
+text-decoration: underline;
+`;
+
+
 export const Date = styled.div`
 text-align: center;
 color: #fff;

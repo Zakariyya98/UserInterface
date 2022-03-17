@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Card from './components/UI/Card';
 import './index.css';
 import Experience from './components/UI/Experience';
+import TechnicalSkills from './components/UI/Technical';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Main />
       <Experience />
+      <TechnicalSkills />
       <Footer />
     </>
   );
