@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/ui-app/static/css/main.37fd262c.css",
-    "main.js": "/ui-app/static/js/main.9da5aaab.js",
-    "index.html": "/ui-app/index.html",
-    "main.9da5aaab.js.map": "/ui-app/static/js/main.9da5aaab.js.map"
+    "main.css": "/UserInterface/static/css/main.37fd262c.css",
+    "main.js": "/UserInterface/static/js/main.9b17a24e.js",
+    "index.html": "/UserInterface/index.html",
+    "main.9b17a24e.js.map": "/UserInterface/static/js/main.9b17a24e.js.map"
   },
   "entrypoints": [
     "static/css/main.37fd262c.css",
-    "static/js/main.9da5aaab.js"
+    "static/js/main.9b17a24e.js"
   ]
 }
