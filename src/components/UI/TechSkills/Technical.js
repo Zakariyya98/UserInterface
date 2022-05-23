@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { ExperienceContainer, ExperienceLabel } from "./Experience.styled";
+import { ExperienceContainer, ExperienceLabel } from "./WorkExperience/Experience.styled";
 
 const TechnicalSkills = () => {
     return (

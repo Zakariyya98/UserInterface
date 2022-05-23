@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContainerDiv } from '../styles/Container.styled';
+import { ContainerDiv } from '../../styles/Container.styled';
 import { MyIntro } from './Main.styled';
 
 const Main = () => {
