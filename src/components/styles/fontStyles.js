@@ -5,6 +5,7 @@ const FontStyles = createGlobalStyle`
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #82DBD8;
 }
 `
 

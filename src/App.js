@@ -7,6 +7,7 @@ import './index.css';
 import Experience from './components/UI/Experience';
 import TechnicalSkills from './components/UI/Technical';
 import Contact from './components/UI/Contact';
+import { ContainerDiv } from './components/styles/Container.styled';
 
 function App() {
   return (
