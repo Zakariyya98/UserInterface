@@ -7,9 +7,9 @@ function Header() {
     return (
         <ContainerDiv>
             <NameHeading>Hi I'm Zakariyya</NameHeading>
-            <HeaderButton>Work</HeaderButton>
+            {/* <HeaderButton>Work</HeaderButton>
             <HeaderButton>Experience</HeaderButton>
-            <HeaderButton>Contact Me</HeaderButton>
+            <HeaderButton>Contact Me</HeaderButton> */}
             <Line />
         </ContainerDiv>
     )
