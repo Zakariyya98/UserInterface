@@ -38,15 +38,20 @@ export const Description = styled.p`
 text-align: center;
 color: #fff;
 font-weight: 300;
+padding-left: 4px;
+font-size: min(2.2vw, 19px);
 `;
 
+// StyledContainer is the div holding the information in the Card
+// Component.
+
 export const StyledContainer = styled.div`
-max-width: 530px;
+max-width: 360px;
 width: 100%;
-height: 290px;
-max-height: 100%;
-border: 2px solid black;
+height: 400px;
+border: 6px solid #3BACB6;
 margin 20px;
-border-radius: 15px;
-background: #272727;
+border-radius: 20px;
+background: #2F8F9D;
+overflow: hidden;
 `

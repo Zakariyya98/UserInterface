@@ -6,13 +6,13 @@ const Experience = () => {
     return (
         <>
         <ExperienceLabel>
-            My Experience
+            Work Experience
         </ExperienceLabel>
 
         <ExperienceContainer>
 
         <Card 
-        title="E-Commerce Company"
+        title="Medical E-Commerce Company"
         role="Junior Web Developer"
         date="March 2020 - September 2021"
         description="Worked with a WordPress website and built bespoke systems

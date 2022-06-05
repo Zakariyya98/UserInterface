@@ -6,7 +6,21 @@ const FontStyles = createGlobalStyle`
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #82DBD8;
-}
+    overflow-x: hidden;
+
+    &::-webkit-scrollbar {
+        width: 13px;    
+    }
+    &::-webkit-scrollbar-track {
+        background: #2F8F9D;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: white;
+    }
+
+
+    
+} 
 `
 
 export default FontStyles;

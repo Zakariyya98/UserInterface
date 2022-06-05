@@ -8,8 +8,8 @@ font-size: 50px;
 `
 
 export const Line = styled.hr`
-width: 100%;
 border: none;
-height: 3px;
+height: 4px;
 background-color: #FFFFFF;
+margin: 0px -20px 0px;
 `
