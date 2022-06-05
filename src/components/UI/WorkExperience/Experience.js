@@ -1,5 +1,6 @@
 import React from "react";
-import Card from '../Card/Card';
+// Work Experience Card Import
+import WE_Card from "../Card/WorkExperienceCard/WorkExperienceCard";
 import { ExperienceContainer, ExperienceLabel } from "./Experience.styled";
 
 const Experience = () => {
@@ -11,7 +12,7 @@ const Experience = () => {
 
         <ExperienceContainer>
 
-        <Card 
+        <WE_Card 
         title="Medical E-Commerce Company"
         role="Junior Web Developer"
         date="March 2020 - September 2021"
@@ -21,7 +22,7 @@ const Experience = () => {
         and CSS to create the front end."
         />
 
-        <Card 
+        <WE_Card 
         title="Vertu Motors"
         role="Web Developer"
         date="October 2021 - Present" 
@@ -30,7 +31,7 @@ const Experience = () => {
         had an oppourtunity to work on their biggest sites creating new features
         and fixing bugs."
         />
-        
+
         </ExperienceContainer>
         </>
     )

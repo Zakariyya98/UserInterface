@@ -50,7 +50,7 @@ max-width: 360px;
 width: 100%;
 height: 400px;
 border: 6px solid #3BACB6;
-margin 20px;
+margin: 20px;
 border-radius: 20px;
 background: #2F8F9D;
 overflow: hidden;
