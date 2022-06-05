@@ -1,23 +1,27 @@
 import React from 'react';
-import Card from '../Card/Card';
+import CC_Card from "../Card/ContactCard/ContactCard";
 import { ExperienceContainer, ExperienceLabel } from '../WorkExperience/Experience.styled';
 
 const Contact = () => {
     return (
         <>
-        <ExperienceLabel>
-            Contact Me
-        </ExperienceLabel>
 
-        <ExperienceContainer>
-                <Card
-                    techtitle="Contact Details"
-                    bullets0="Email: zak2fas49@gmail.com"
-                    bullets1="LinkedIn: Zakariyya Ahmed"
-                    bullets2="Github: Zakariyya98" />
+            <ExperienceLabel>
+                Contact Me
+            </ExperienceLabel>
+
+            <ExperienceContainer>
+
+            <CC_Card 
+            title="Contact Details"
+            email="Email: zak2fas49@gmail.com"
+            linkedin="LinkedIn: Zakariyya Ahmed"
+            github="Github: Zakariyya98" 
+            />
+
             </ExperienceContainer>
             
-            </>
+        </>
     )
 }
 
