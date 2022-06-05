@@ -21,5 +21,3 @@ justify-content: flex-end;
 align-items: flex-start;
 align-content: stretch;
 `
-
-
