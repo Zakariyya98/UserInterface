@@ -17,9 +17,7 @@ body {
     &::-webkit-scrollbar-thumb {
         background: white;
     }
-
-
-    
+  
 } 
 `
 

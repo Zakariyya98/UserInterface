@@ -11,6 +11,4 @@ font-size: 30px;
 font-weight: 300;
 text-align: center;
 text-decoration: underline;
-
 `
-

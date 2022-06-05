@@ -22,7 +22,6 @@ const Contact = () => {
             </ExperienceContainer>
             
         </>
-    )
-}
+)};
 
 export default Contact;

@@ -1,10 +1,9 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const NameHeading = styled.h1`
 display: inline-block;
 color: #FFFFFF;
 font-size: 50px;
-
 `
 
 export const Line = styled.hr`

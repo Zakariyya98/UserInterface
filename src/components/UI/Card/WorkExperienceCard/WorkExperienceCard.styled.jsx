@@ -37,4 +37,3 @@ font-weight: 300;
 padding-left: 4px;
 font-size: min(2.2vw, 19px);
 `
-

@@ -16,11 +16,11 @@ text-align: center;
 color: #fff;
 font-weight: 300;
 text-decoration: underline;
-`;
+`
 
 export const CC_Bullets = styled.ul`
 text-align: center;
 margin-right: 50px;
 color: #fff;
 font-weight: 300;
-`;
+`
